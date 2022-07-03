@@ -31,9 +31,6 @@ public class Main {
 				if(student_score[j] > score_average)	// 평균을 넘을 경우
 					over_average_student_num++;
 			}
-			
-			System.out.println(over_average_student_num);	// 평균을 넘는 학생의 수
-			System.out.println(student_num);				// 학생의 수
 			double over_average_student_percent = (double)over_average_student_num/(double)student_num*100;
 			System.out.println(String.format("%.3f", over_average_student_percent) + "%");
 		}
